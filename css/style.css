@@ -1,3 +1,4 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,700&display=swap');
 
 
 /* bannar */
@@ -8,21 +9,53 @@
     height: 600px;
     border-radius: 15px;
     margin: 50px 140px;
+    
 }
 
 .bannar-content{
     text-align: center;
     color:#FFF ;
-    /* padding: 73px 47px ; */
-    padding: 100px 180px ;
+    display: block;
+    font-family: 'Merriweather', serif;
+    padding: 100px  170px 110px 480px
+    
+    
+    
 }
 
-.happy{
-    font-family: Merriweather;
-font-size: 32px;
+.happy{  
+    font-size: 32px;
 }
 
 .year{
-    font-family: Merriweather;
 font-size: 72px;
+width: 632px;
+}
+
+
+/* main section */
+
+#hed{
+    color: #F00;
+
+/* text-align: center; */
+font-family: Inter;
+font-size: 88px;
+}
+
+#paragrp{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+}
+
+#all{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+}
+
+.discount{
+    text-align: center;
+    margin: 100px ;
 }
