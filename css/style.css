@@ -4,11 +4,14 @@
 /* bannar */
 .bannar{
     background-image: url('../images/Banner\ Image.png');
+    background-color:rgba(0, 0, 0, 0.494) ;
+    background-blend-mode:multiply ;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 600px;
     border-radius: 15px;
-    margin: 50px 140px;
+    margin: 50px;
     
 }
 
