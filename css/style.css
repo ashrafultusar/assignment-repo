@@ -127,7 +127,6 @@ font-weight: 482px ;
 }
 
 .time-content{
-    /* background-color: antiquewhite; */
     background-image: linear-gradient(
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
@@ -195,3 +194,62 @@ width: 443px;
 height: 463px;
 flex-shrink: 0;
 }
+
+
+/* Subscribe Newsletter */
+
+
+.newlater-content{
+    margin: 50px ;
+     /* background-image: linear-gradient(
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100% ); */
+    background-color: #FF00000D;
+
+    text-align: center;
+    
+font-family: Inter;
+ font-size: 32px;
+color:#070211;
+font-weight: 600; 
+padding: 130px 130px ;
+/* margin:50px ;  */
+border-radius: 15px;
+line-height: 56px
+}
+
+
+.common-color{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    font-weight: 900;
+}
+.common-para{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px; 
+width: 896px;
+padding-left:300px ;
+
+}
+
+
+
+.act-button{
+    display: flex;
+}
+
+    .input{
+       color: #FF00000D;
+        width: 648px;
+        height: 50px;
+        border-radius: 9px;
+        border: 0;
+       
+}
+
+
