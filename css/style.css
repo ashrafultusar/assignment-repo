@@ -1,0 +1,28 @@
+
+
+/* bannar */
+.bannar{
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    border-radius: 15px;
+    margin: 50px 140px;
+}
+
+.bannar-content{
+    text-align: center;
+    color:#FFF ;
+    /* padding: 73px 47px ; */
+    padding: 100px 180px ;
+}
+
+.happy{
+    font-family: Merriweather;
+font-size: 32px;
+}
+
+.year{
+    font-family: Merriweather;
+font-size: 72px;
+}
