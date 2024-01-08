@@ -113,7 +113,6 @@ border-radius: 5px;
 border: 0;
 }
 
-
 /* time section */
 
 .time{
@@ -147,13 +146,11 @@ line-height: 56px
 }
 
 
-
 /* comming soon section */
 
 .comming-soon{
     display: flex;
     align-items: center;
-    /* padding: 140px 140px ; */
     margin: 50px 20px 50px 20px;
     justify-content: space-around;
     
@@ -190,9 +187,110 @@ font-size: 48px;
 .comming-img{
 justify-content:center ;
 align-items: center;
-width: 443px;
+width: 463px;
 height: 463px;
 flex-shrink: 0;
+border-radius: 463px;
+border: 15px solid #F00;
+width: 463px;
+height: 463px;
+flex-shrink: 0;
+
+}
+
+/* holidy sale 50% section*/
+
+.sale-content{
+    text-align: center; 
+}
+
+#sale1{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}
+
+#sale2{
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+#col{
+color: black
+}
+
+#sale3{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px; 
+width: 1068px;
+padding-left:390px ;
+
+}
+
+.sal-img{
+    margin-top: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.red-off{
+    background-size: cover;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-around;
+}
+
+/* aswam section */
+
+.awasom-content{
+    width: 55%;
+    margin-left: 50px; 
+}
+
+
+#as1{
+    color: #F00;
+font-family: Inter;
+font-size: 24px ;
+font-weight: 500;
+
+}
+
+#as2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#as3{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    width: 896px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.ims-asm{
+    border-radius: 10px;
+   
+}
+
+.ims-asm2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ gap: 12px;
 }
 
 
@@ -201,23 +299,16 @@ flex-shrink: 0;
 
 .newlater-content{
     margin: 50px ;
-     /* background-image: linear-gradient(
-    rgba(255, 0, 0, 0.1) 0%,
-    rgba(255, 0, 0, 0) 100% ); */
     background-color: #FF00000D;
-
     text-align: center;
-    
 font-family: Inter;
  font-size: 32px;
 color:#070211;
 font-weight: 600; 
 padding: 130px 130px ;
-/* margin:50px ;  */
 border-radius: 15px;
 line-height: 56px
 }
-
 
 .common-color{
     color: #070211;
@@ -238,7 +329,6 @@ padding-left:300px ;
 }
 
 
-
 .act-button{
     display: flex;
 }
@@ -251,5 +341,67 @@ padding-left:300px ;
         border: 0;
        
 }
+.input{
+    color: rgba(7, 2, 17, 0.30);
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+}
 
+/* footer section */
 
+.footer{
+    background-color: #070211 ;
+    height: 609px;
+  margin-top: 100px;
+  margin-left: 0;
+  margin-right: o;
+  
+}
+
+.fcont1{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+width: 24%;
+ padding: 140px ;
+
+}
+
+.her{
+    width: 1320px;
+height: 1px;
+}
+
+.her1{
+    width: 1320px;
+height: 1px;
+}
+
+.fimg{
+
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.fcont2{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+padding-left: 140px;
+}
+
+ .fcont3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left:1550px;
+   
+ }
