@@ -60,3 +60,84 @@ font-size: 24px;
     text-align: center;
     margin: 100px ;
 }
+
+
+/* wellcome section */
+
+.wellcome{
+background-image: url('../images/Vectorrr.png'); 
+background-color:rgba(0, 0, 0, 0.497) ;
+background-blend-mode: multiply;
+background-repeat: no-repeat;
+background-position: center;
+    background-size: cover;
+    height: 600px;
+    border-radius: 15px;
+    margin: 50px; 
+    display: flex;
+    
+}
+
+#party{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+width: 642px;
+font-weight: 900;
+line-height: 
+letter-spacing: 7.06px;
+}
+
+
+.same{
+    color: rgba(255, 255, 255, 0.80);
+   bakg
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 697px;
+    line-height: 30px;
+}
+
+.button{
+    border-radius: 8px;
+    color: #FFF;
+background: #F00;
+padding: 16px 32px;
+border-radius: 5px;
+border: 0;
+}
+
+
+/* time section */
+
+.time{
+    text-align: center;
+    height: 600px;
+font-family: Inter;
+font-size: 32px
+font-weight: 482px ;
+
+
+}
+
+.time-content{
+    background-color: antiquewhite;
+    text-align: center ;
+font-family: Inter;
+ font-size: 32px;
+color:#070211;
+font-weight: 600; 
+padding: 130px 130px ;
+margin:50px ; 
+border-radius: 15px;
+line-height: 56px
+}
+
+.uniqe{
+    color: #F00;
+}
+
+
