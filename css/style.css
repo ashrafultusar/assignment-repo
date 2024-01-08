@@ -71,10 +71,14 @@ background-blend-mode: multiply;
 background-repeat: no-repeat;
 background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
     height: 600px;
     border-radius: 15px;
     margin: 50px; 
-    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    justify-content:space-around
     
 }
 
