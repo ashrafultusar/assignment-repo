@@ -151,14 +151,13 @@ line-height: 56px
 .comming-soon{
     display: flex;
     align-items: center;
-    margin: 50px 20px 50px 20px;
+    margin: 70px 50px 90px 50px;
     justify-content: space-around;
     
 }
 
 .first-cont{
     width: 393px;
-    
 
 }
 
@@ -177,7 +176,7 @@ line-height: 56px
 font-family: Inter;
 }
 
-#id1{
+#soon1{
     color: #070211;
 font-family: Merriweather;
 font-size: 48px;
@@ -187,21 +186,23 @@ font-size: 48px;
 .comming-img{
 justify-content:center ;
 align-items: center;
-width: 463px;
-height: 463px;
 flex-shrink: 0;
-border-radius: 463px;
+border-radius:360px;
 border: 15px solid #F00;
-width: 463px;
-height: 463px;
+width: 390px;
+height: 390px;
 flex-shrink: 0;
+padding-top: 20px;
+padding-left: 24px;
 
 }
+
 
 /* holidy sale 50% section*/
 
 .sale-content{
     text-align: center; 
+    margin-top: 200px;
 }
 
 #sale1{
@@ -282,8 +283,9 @@ font-weight: 500;
 }
 
 .ims-asm{
+
     border-radius: 10px;
-   
+ 
 }
 
 .ims-asm2{
@@ -291,6 +293,8 @@ font-weight: 500;
     display: flex;
     justify-content: center;
  gap: 12px;
+ width: 420;
+ height: 450px
 }
 
 
@@ -357,51 +361,68 @@ font-weight: 400;
   margin-top: 100px;
   margin-left: 0;
   margin-right: o;
-  
 }
 
-.fcont1{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 40px; 
-width: 24%;
- padding: 140px ;
 
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top:70px ;
+}
+
+.ftc{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 40px;
+   padding-left: 110px;
+    /* padding-left: 70px; */
+  
+} 
+
+.fti{
+padding-right: 100px;
+}
+
+
+.footer-middil{
+   align-items: center;
+   justify-content: center;
+   padding-left: 800px;
 }
 
 .her{
     width: 1320px;
-height: 1px;
+height: px;
+color: #FFFFFF26;
 }
 
-.her1{
-    width: 1320px;
-height: 1px;
-}
 
-.fimg{
-
-    align-items: center;
-    justify-content: center;
-    
-
-}
-
-.fcont2{
+.fcontent{
     color: #FFF;
 font-family: Inter;
 font-size: 24px;
 font-weight: 500;
-padding-left: 140px;
+line-height: 40px;
 }
 
- .fcont3{
+.nw{
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    padding-left:1550px;
-   
- }
+    line-height: 40px; 
+} 
+
+
+.lcont{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 150px;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+
