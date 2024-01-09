@@ -148,13 +148,13 @@ line-height: 56px
 
 /* comming soon section */
 
-.comming-soon{
+ .comming-soon{
     display: flex;
     align-items: center;
     margin: 70px 50px 90px 50px;
     justify-content: space-around;
     
-}
+} 
 
 .first-cont{
     width: 393px;
@@ -195,7 +195,8 @@ flex-shrink: 0;
 padding-top: 20px;
 padding-left: 24px;
 
-}
+} 
+
 
 
 /* holidy sale 50% section*/
@@ -254,7 +255,7 @@ padding-left:390px ;
 
 .awasom-content{
     width: 55%;
-    margin-left: 50px; 
+    margin-left: 290px; 
 }
 
 
@@ -279,11 +280,11 @@ font-weight: 500;
     font-size: 20px;
     width: 896px;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
 }
 
 .ims-asm{
-
+margin: 10px;
     border-radius: 10px;
  
 }
