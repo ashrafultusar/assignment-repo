@@ -1,6 +1,10 @@
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,700&display=swap');
 
 
+body{
+    max-width: 1850px;
+    margin: 0 auto ;
+}
 /* bannar */
 .bannar{
     background-image: url('../images/Banner\ Image.png');
@@ -129,7 +133,7 @@ font-weight: 482px ;
     background-image: linear-gradient(
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
-  );
+    );
     text-align: center ;
 font-family: Inter;
  font-size: 32px;
@@ -204,6 +208,7 @@ padding-left: 24px;
 .sale-content{
     text-align: center; 
     margin-top: 200px;
+    padding-bottom: 70px;
 }
 
 #sale1{
@@ -255,7 +260,8 @@ padding-left:390px ;
 
 .awasom-content{
     width: 55%;
-    margin-left: 290px; 
+    margin-left: 50px;
+   
 }
 
 
@@ -286,6 +292,8 @@ font-weight: 500;
 .ims-asm{
 margin: 10px;
     border-radius: 10px;
+    
+    
  
 }
 
@@ -361,7 +369,6 @@ font-weight: 400;
     height: 609px;
   margin-top: 100px;
   margin-left: 0;
-  margin-right: o;
 }
 
 
